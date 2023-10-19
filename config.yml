@@ -1,7 +1,7 @@
 web:
   host: 0.0.0.0
   port: 8080
-
+  ssl_context: 'server.crt','server.key'
 server:
   # 如果你想显示你的服务器连接信息的话，就把下面这个show-info改为true，否则保持不动
   show-info: false
